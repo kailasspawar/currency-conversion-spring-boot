@@ -2,6 +2,7 @@
 to run this microservice please use following url:- this service basically return the currency exchange value based on passed parameter from and to and quantity
 
 e.g:- localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
+      with feign-client:- localhost:8100/currency-conversion-feign/from/USD/to/INR/quantity/10 
 
 sample response returned for this above url will be:-
 
